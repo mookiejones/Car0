@@ -18,6 +18,60 @@ namespace CarZero.ViewModels
 
         #region · Properties ·
 
+        #region J4Data
+
+        private List<Vector> _j4Data =new List<Vector>();
+
+        public List<Vector> J4Data
+        {
+            get { return _j4Data; }
+            set
+            {
+                if (_j4Data == value) return;
+                OnPropertyChanging(nameof(J4Data));
+                _j4Data = value;
+                OnPropertyChanged(nameof(J4Data));
+            }
+        }
+
+        #endregion
+        #region J5Data
+
+        private List<Vector> _j5Data =new List<Vector>();
+
+        public List<Vector> J5Data
+        {
+            get { return _j5Data; }
+            set
+            {
+                if (_j5Data == value) return;
+                OnPropertyChanging(nameof(J5Data));
+                _j5Data = value;
+                OnPropertyChanged(nameof(J5Data));
+            }
+        }
+
+        #endregion
+        #region J4Data
+
+        private List<Vector> _j6Data =new List<Vector>();
+
+        public List<Vector> J6Data
+        {
+            get { return _j6Data; }
+            set
+            {
+                if (_j6Data == value) return;
+                OnPropertyChanging(nameof(J6Data));
+                _j6Data = value;
+                OnPropertyChanged(nameof(J6Data));
+            }
+        }
+
+        #endregion
+
+        
+
         #region Robot
 
         private IRobot _robot = default(IRobot);
@@ -277,7 +331,7 @@ namespace CarZero.ViewModels
                 switch (Rbrand.Company)
                 {
                     case Brand.RobotBrands.ABB:
-                        ABB.ReadCar0J456Targets(robotRootPath, out MyJ4Data, out MyJ5Data, out MyJ6Data, ref problems);
+                        ABB.ReadCar0J456Targets(robotRootPath,out J4Data,out  J5Data,out  J6Data, ref problems);
                         break;
 
                     case Brand.RobotBrands.Fanuc:

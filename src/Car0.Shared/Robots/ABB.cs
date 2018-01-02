@@ -15,7 +15,7 @@ namespace CarZero
     using System.IO;
 
 
-    internal class ABB:IRobot
+    public class ABB:IRobot
     {
         private static bool CheckedDecoderRing = false;
         private static string MyCar0BasePtsProgram = "mycar0pts.mod";
