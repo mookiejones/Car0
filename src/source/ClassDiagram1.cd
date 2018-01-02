@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Car0.ABB" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAQIQkAABISACAAAgCAAIQQJAACAAgAKAAEAQAABA=</HashCode>
+      <FileName>Car0\Classes\ABB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car0.AppToolName" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KYAABCAgEECBAIAAVAgIAgQAAAQAIAACAAwAAAAAggA=</HashCode>
+      <FileName>Car0\Classes\AppToolName.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car0.AxisOfRotation" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIBEIAQEAAAIAAAAAABAEAAAQIpAIEAEACoB0MAAE=</HashCode>
+      <FileName>Car0\Classes\AxisOfRotation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car0.Brand" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BI0EJ5EoMAwAZiAgAAUMIIYR4RAV4AqQEmWgxkCEgqw=</HashCode>
+      <FileName>Car0\Classes\Brand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car0.ExcelIO" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAgRdEPLgBEQFBACCAIIQAQKwIQAARIFAICSAIwAAKI=</HashCode>
+      <FileName>Car0\Classes\ExcelIO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car0.FrameRoutines" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQAIQAABIBCEAAYEAAQABAIAISAAAAAQAAAKUAAA=</HashCode>
+      <FileName>Car0\Classes\FrameRoutines.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car0.GetPlane" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgIQEAQAIAAABAABAERAAANJADAAEAioLGBQAA=</HashCode>
+      <FileName>Car0\Classes\GetPlane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car0.Kuka" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EABAQAAEAAAAQCAAAIAAAAAAAJAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Car0\Classes\Kuka.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car0.Matrix" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASCAQAAAIAAEAgAAEABAAAACAACAACCAAAABAECBAAA=</HashCode>
+      <FileName>Car0\Classes\Matrix.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car0.MatrixMap" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Car0\Classes\MatrixMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car0.MatrixSolver" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAFAAACAgAAAAgAAAAAABAAAAAAAUAAAAAABA=</HashCode>
+      <FileName>Car0\Classes\MatrixSolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car0.Nachi" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIQIAMAEBAQAAAAAAAAAAAAJAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Car0\Classes\Nachi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car0.Program" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Car0\Classes\Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car0.Rotation3x3" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Car0\Classes\Rotation3x3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car0.Transformation" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABwgPFEAAoABBgkAAAIAQASASwDhAAABAAAAgPCIASI=</HashCode>
+      <FileName>Car0\Classes\Transformation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car0.UserPreferences" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IABUAQAAAAIAgAAFIAAAQCjgKAQAABICAQIgZAEECAg=</HashCode>
+      <FileName>Car0\Classes\UserPreferences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car0.Utils" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAACAAAAQAAAAAgAAAAAw6AAABBAAEAAAIAACAAAAA=</HashCode>
+      <FileName>Car0\Classes\Utils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car0.Vector" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAABCQKAAAEgIAAAAIACAAAAAAAAAAgECAYAU=</HashCode>
+      <FileName>Car0\Classes\Vector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car0.Vector3" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIAQAgAAACAAAAAEAoCAAAAQAAAAIAAAABggUAAAAA=</HashCode>
+      <FileName>Car0\Classes\Vector3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car0.KUKAcar0" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>zAAUYWACUmIAAFGhhArghggWARLAhgBh6QANoKFEgiA=</HashCode>
+      <FileName>Car0\KUKAcar0.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car0.RobotData" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABqjIAJARSAAAAIAISDCIIgCMFkCQgUxAWQAIAATAIA=</HashCode>
+      <FileName>Car0\RobotData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car0.Properties.Resources" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car0.Fanuc" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIQAAEQAAAQAAACJAAAAAAAJAAAAAAAAAACAAABAA=</HashCode>
+      <FileName>Car0\Classes\Fanuc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

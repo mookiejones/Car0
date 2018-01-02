@@ -1,0 +1,68 @@
+﻿<Window x:Class="Car0WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarZero"
+        xmlns:viewModels="clr-namespace:CarZero.ViewModels"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525"
+        DataContext="{x:Static viewModels:MainViewModel.Instance}"
+        Background="PapayaWhip"
+        >
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Grid.Row="0" Content="Set Root Folder"/>
+            <Button Grid.Column="0" Grid.Row="1" Content="Robot data"/>
+            <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding RootFolder}"/>
+            <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding RobotData}"/>
+      
+        <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="0">
+
+            <RadioButton Content="Radial tool data" IsChecked="{Binding IsRadial}" GroupName="Radial"/>
+            <RadioButton Content="Robot base points" IsChecked="{Binding IsNotRaidal}" GroupName="Radial"/>
+            <CheckBox Content="Write Debug Data" IsChecked="{Binding WriteDebug}"/>
+            <RadioButton Content="Initial 321 fit" IsChecked="{Binding InitialFit}"/>
+        </StackPanel>
+            <Button Grid.Row="3" Grid.Column="0" Content="View Tracker File"/>
+            <TextBlock Grid.Row="3" Grid.Column="1" Text="{Binding TrackerFile}"/>
+
+        </Grid>
+        
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <DockPanel>
+                <ListBox DockPanel.Dock="Left" ItemsSource="{Binding RobotTypes}" SelectedItem="{Binding SelectedRobotType}"/>
+                <StackPanel>
+                    <Button Content="Read Robot Tool Program" Command="{Binding ReadRobotToolProgramCommand,Mode=OneWay}"/>
+                    <Button Content="Read Robot Base Program" Command="{Binding ReadRobotBaseCommand,Mode=OneWay}"/>
+                    <Button Content="Set All Joint Values" Command="{Binding SetAllJointsCommand,Mode=OneWay}"/>
+                </StackPanel>
+            </DockPanel>
+        </Grid>
+        <Border Grid.Row="2" BorderBrush="Black" BorderThickness="1" Margin="1" Padding="2">
+            <TextBlock Grid.Row="2" Text="{Binding Problems}" />
+        </Border>
+        <Button Grid.Row="3" Content ="Calculate radial tool data"/>
+    </Grid>
+</Window>

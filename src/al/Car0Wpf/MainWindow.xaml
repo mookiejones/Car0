@@ -1,0 +1,12 @@
+﻿<Window x:Class="Car0Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="705">
+    <Grid>
+        <Button x:Name="btnSetRootFolder" Content="Set Root Folder" HorizontalAlignment="Left" Margin="10,24,0,0" VerticalAlignment="Top" Width="96"/>
+        <Button x:Name="btnSetRobotData" Content="Set Robot Data" HorizontalAlignment="Left" Margin="10,51,0,0" VerticalAlignment="Top" Width="96"/>
+        <TextBox x:Name="txtRootFolder"  HorizontalAlignment="Left" Margin="111,24,0,0" TextWrapping="Wrap" Text="Not set" VerticalAlignment="Top" Width="490"/>
+        <TextBox x:Name="txtRootData" HorizontalAlignment="Left" Margin="111,51,0,0" TextWrapping="Wrap" Text="Not set" VerticalAlignment="Top" Width="490"/>
+
+    </Grid>
+</Window>
